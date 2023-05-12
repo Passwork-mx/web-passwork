@@ -1,0 +1,148 @@
+/* Extra Styles +++++++++
+ ++++++++++++++++++++++ */
+.extra-width{
+    min-width:304px;
+    max-width:304px
+}
+@media(max-width:1279px){
+    .extra-width {
+        min-width: 284px;
+        max-width: 284px;
+    }
+}
+@media(max-width: 767px){
+    .extra-width {
+        min-width: 231px;
+        max-width: 231px;
+    }
+    .widget_instagram_images_columns_6 .widget_instagram_images_item_wrap{
+        width: calc(100%/3)!important;
+    }
+}
+@media(max-width: 479px){
+    .widget_instagram_images_columns_6 .widget_instagram_images_item_wrap{
+        width: calc(100%/2)!important;
+    }
+    div #style-3.mc4wp-form .mc4wp-form-fields button,
+    div #style-3.mc4wp-form .mc4wp-form-fields input[type="submit"]{
+        font-size: 13px;
+    }
+    body .adp-popup .adp-popup-close {
+        top: 5px;
+        right: 5px;
+    }
+}
+.inverse_dark {	color: var(--theme-color-inverse_dark); }
+.sc_button {
+    margin-right: 10px;
+}
+@media(max-width:768px){
+    .sc_price_default .sc_price_item_info {
+        padding: 3em 1em;
+    }
+}
+.slider_container.slider_controls_top .slider_controls_wrap > a,
+.slider_container.slider_controls_bottom .slider_controls_wrap > a,
+.slider_outer_controls_top .slider_controls_wrap > a,
+.slider_outer_controls_bottom .slider_controls_wrap > a{
+    background:transparent!important;
+    border:none;
+}
+.sc_services_unusual .sc_services_item .sc_services_item_more_link .link_icon{
+    border:none;
+    opacity: 0;
+    transition:0.3s;
+}
+.sc_services_unusual .sc_services_item:hover .sc_services_item_more_link .link_icon{
+    opacity: 1;
+}
+.sc_services_unusual .sc_services_item .sc_services_item_more_link .link_icon:before{
+    content: '\eb5d';
+    font-size: 30px;
+}
+.sc_services_unusual .sc_services_item_number{
+    display: none;
+}
+.sc_services_accent .sc_services_item{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+.blocks-gallery-grid, .wp-block-gallery{
+    flex-direction: row;
+}
+body table.booked-calendar thead tr:first-child th{
+    background-color: var(--theme-color-text_link)!important;
+}
+table.booked-calendar thead tr th:first-child{
+    border: 1px solid var(--theme-color-text_link)!important;
+}
+.booked-calendar-wrap.large table.booked-calendar tr.week td.active:not(.prev-date)::before, .booked-calendar-wrap.large table.booked-calendar tr.week td.active:not(.prev-date)::after {
+    background-color: var(--theme-color-text_link2) !important;
+}
+.booked-calendar-wrap.large table.booked-calendar tr td:not(.prev-date):hover:before,
+.booked-calendar-wrap.large table.booked-calendar tr td.today:hover:before,
+.booked-calendar-wrap.large table.booked-calendar tr td:not(.prev-date):hover:after,
+.booked-calendar-wrap.large table.booked-calendar tr td.today:hover:after,
+body table.booked-calendar tr td.today:not(.prev-date):hover .date,
+body table.booked-calendar tr td.active:not(.prev-date) .date{
+    background-color: var(--theme-color-text_link2) !important;
+}
+.booked-calendar-wrap.large table.booked-calendar tr:not(.entryBlock) td:not(.prev-date):before,
+.booked-calendar-wrap.large table.booked-calendar tr.week td.active:not(.prev-date):before,
+.booked-calendar-wrap.large table.booked-calendar tr td.today:before,
+.booked-calendar-wrap.large table.booked-calendar tr:not(.entryBlock) td:not(.prev-date):after,
+.booked-calendar-wrap.large table.booked-calendar tr.week td.active:not(.prev-date):after,
+.booked-calendar-wrap.large table.booked-calendar tr td.today:after{
+    z-index: 10;
+}
+body table.booked-calendar .booked-appt-list{
+    border-color: var(--theme-color-text_link2) !important;
+}
+table.booked-calendar tbody tr{
+    background-color: var(--theme-color-alter_bg_color) !important;
+}
+body table.booked-calendar thead tr.days{
+    background-color: var(--theme-color-bg_color) !important;
+}
+.sc_events_modern .sc_events_item_meta_locality{
+    font-weight:700;
+}
+
+.default_clients .widget_slider .slider_container .slider-slide img{
+    opacity: 0.2;
+    transition: 0.3s;
+}
+.default_clients .widget_slider .slider_container .slider-slide:hover img {
+    opacity: 1;
+}
+#sb_instagram #sbi_load {
+    margin-top: 0;
+}
+.sc_testimonials_accent2 .sc_testimonials_item:before,
+.sc_testimonials_classic .sc_testimonials_item_content:before{
+    color: var(--theme-color-text_link);
+}
+.sc_testimonials_accent2 .sc_testimonials_item:before{
+    content: '\e9ca';
+    font-family: "fontello";
+}
+.sc_testimonials_accent2 [class*="column"] .sc_testimonials_item_content,
+.sc_testimonials_accent2 .sc_testimonials_item_content{
+    color: var(--theme-color-text);
+}
+body .booked-calendar-wrap .booked-calendar .booked-appt-list .timeslot{
+    background-color:transparent!important;
+}
+body .booked-calendar-wrap .booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover{
+    color: var(--theme-color-inverse_link) !important;
+    background: var(--theme-color-text_hover2) !important;
+    border-color: var(--theme-color-text_hover2) !important;
+}
+body .booked-calendar-wrap .booked-calendar .booked-appt-list .timeslot .timeslot-people button{
+    color: var(--theme-color-inverse_link) !important;
+    background: var(--theme-color-text_link2) !important;
+    border-color: var(--theme-color-text_link2) !important;
+}
+.post_layout_classic .slider_container.slider_controls_side .slider_controls_wrap > a,
+.post_layout_classic .slider_outer_controls_side .slider_controls_wrap > a{
+    line-height: 34px;
+}

@@ -1,0 +1,86 @@
+Version: 2.2.0
+    Added: WPC Smart Quick View for WooCommerce compatibility
+    Added: 3 new product styles for the product feed
+    Added: New functionality for WooCommerce
+    Added: Single product appearance improved
+    Added: Hotspot shortcode
+    Fix: CSS fixes (Booked)
+
+Version: 2.1.0
+	Skin 'default' is updated to the version 1.1.
+
+Version 2.0.0 
+    Updated:
+        - Theme сore
+        - Theme content
+        - Theme design
+        - Theme documentation
+    Changed:
+        - Theme Builder - Elementor
+    Removed:
+	- WPBakery Page Builder
+	- TRX Utils
+	- Essential Grid
+        - Wp Instagram Widget
+        - bbPress
+	- BuddyPress
+
+    Added:
+        - Layout builder
+	- Booked
+	- elegro Crypto Payment
+	- Smash Balloon Instagram Feed
+        - MC4WP: Mailchimp for WordPress
+        - Advanced Popups
+        - TI WooCommerce Wishlist
+	- ThemeREX Updater
+	- ThemeREX Addons
+
+Version 1.6
+    	Added:
+    	    - WP GDPR Compliance plugin
+            - Contact Form 7
+            - Alert to Demo data installation
+            - Privacy Policy page
+
+        Fixed:
+            - Compatibility with Gutenberg and other PageBuilders
+            - Update plugins to their latest versions
+            - Improve theme styles
+            - Mobile style The Events Calendar
+            - Preloader mailto:, tel:
+
+        Changed:
+            - Update default contact forms to make them GDPR-compliant
+            - Move Importer to ThemeREX Utils plugin
+    	    - Update demo data
+
+
+Version 1.5
+	Fixed hide menu in landing page
+	Compatibility with WP 4.9.2
+	Updated plugins to their latest versions
+	Demo data updates
+
+Version 1.4
+	Plugins updated.
+	Documentations updated.
+	Compatibility with PHP7.
+	Dummy data import improved.
+	The theme is now compatible with version WooCommerce 3.0 and higher.
+
+Version 1.3
+    Google Map updated.
+    Updated Revolution Slider to its latest version.
+
+Version 1.2
+    Demo data updates and its installation improved.
+    Updated WPBakery PageBuilder to its latest version.
+    Updated Revolution Slider to its latest version.
+    Added new CSS styles.
+
+Version 1.1
+    Updated WPBakery PageBuilder to the latest version.
+
+Version 1.0
+    Release
